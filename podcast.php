@@ -10,8 +10,8 @@
 <body>
     <?php
     $index = $_GET['Index']; 
-    if($index > count($podcast)){
-        echo("404 not found beatch!");
+    if($index > count($podcast)-1){
+        echo("404 not found !!!!!!!");
     }else{
         echo('<h1>'.$podcast[$index]["name"].'</h1>');
         echo($podcast[$index]["date"]);

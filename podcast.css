@@ -6,12 +6,17 @@ h2{
     align-items: center;
     justify-content: center;
 }
+audio{
+    padding : 1%;
+}
 .podcast{
     display: flex;
     flex-direction: column;
     margin: 3px;
     padding: 3px;
+    margin-bottom: 2%;
     background-color: aliceblue ;
+    border-radius: 10%;
 
 }
 .playPanel{    
